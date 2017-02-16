@@ -51,7 +51,7 @@ Open Sublime text editor and create a new file by clicking on `File > New File `
 > Some invalid style of naming D files include `"d program.d"`, `"d program .d"` and "`code"`.
 > Valid styles include `"d_program.d"`, `"dprogram.d"` and `"code.d"`.
 > 
-> Although I stated you should save the file as `try.d`, you are free to save it with any name you want as long as it conforms to the file naming conventions stated above.
+> Although I stated you should save the file as `hello.d`, you are free to save it with any name you want as long as it conforms to the file naming conventions stated above.
 
 After saving the new file, type the following code exactly as it appears into it:
 
@@ -70,23 +70,23 @@ The code should look similar to the screenshot below when typed in Sublime:
 You can now save by clicking `File > Save` or using the keyboard shortcut `Ctrl + S` in Sublime to save the code to the file.  Enter the following command in your command-line to compile and press `Enter` run the code using DMD:
 
 ```sh
-dmd -run try.d
+dmd -run hello.d
 ```
-This command tells DMD to look for a file named `try.d`, compile and run it. You may also choose to compile it to machine code first using:
+This command tells DMD to look for a file named `hello.d`, compile and run it. You may also choose to compile it to machine code first using:
 
 ```sh
-dmd try.d
+dmd hello.d
 ```
-This will generate a program called `try.exe` on Windows or just `try` on Linux and macOS. On Windows, enter with the command:
+This will generate a program called `hello.exe` on Windows or just `hello` on Linux and macOS. On Windows, enter with the command:
 
 ```sh
-try.exe
+hello.exe
 ```
 
 or on Linux and macOS, enter:
 
 ```sh
-./try
+./hello
 ```
 
 This should print `"Hello, world!"` in the command-line just like the previous command but this time, you also have the generated program at the location of the D source file.
@@ -97,7 +97,7 @@ This should print `"Hello, world!"` in the command-line just like the previous c
 
 If you typed the code correctly, saved it into the new file and typed the command correctly, DMD should compile and run the code we wrote above. This should print the text `"Hello, world!"` in the command-line as shown in the screenshot below;
 
-![Demo code in Terminal](images/try.png) 
+![Demo code in Terminal](images/hello.png) 
 Demo code in Terminal
 
 Congratulations! You have written your first program in D.
