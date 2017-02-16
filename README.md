@@ -103,4 +103,5 @@ Demo code in Terminal
 Congratulations! You have written your first program in D.
 
 > ### Getting all source code for examples in this book
-> You can access all the code used in this book at https://github.com/aberba/learn-coding within the `examples` folder. 
+> You can access all the code used in this book at https://github.com/aberba/learn-coding within the `examples` folder. The examples source code is organised placed into various folders in sequence depending on the __Chapter__ in the book within which it was demonstrated. 
+> For example, the `hello.d` code we just wrote will be placed in the `chapter_01` folder in `examples` and the file will be named as `example_01_hello.d`. The next example in this chapter will be saved in a file with its name prefixed with `example_02_`. The same pattern applies to source code for all examples in this book.
