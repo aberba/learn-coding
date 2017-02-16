@@ -1,11 +1,11 @@
 # Learn Coding: using D
-> A mini book for learning computer programming completely from scratch using D programmming language.
+> A mini book for learning computer programming completely from scratch using D programming language.
 
 ## Preface
 This book is written to guide you to learn computer programming. I have put in effort to make it easy to understand for beginners. You will be taken through the basics and move to more advanced topics as you go further. You are encourage to follows along right from the start to understand more advanced topics in this book.
 
 ## Introduction to computer programming
-A computer is an electronic device which takes instructions and do it. A computer program contains the instructions which tell the computer what to do. By writing the right program, you can tell a computer to do anything, _as long as it is capable_. A computer only understand __0s__ and __1s__. It uses a combination of 0s and 1s to represent a specific instruction. These combinations of 0s and 1s are difficult to write or understand.
+A computer is an electronic device, which takes instructions & carries them out. A computer program contains the instructions which tell the computer what to do. By writing the right program, you can tell a computer to do anything, _as long as it is capable_. A computer only understand __0s__ and __1s__. It uses a combination of 0s and 1s to represent a specific instruction. These combinations of 0s and 1s are difficult to write or understand.
 
 To solve this problem, `computer programming languages` were invented. Programming languages are much easy to write or understand. A compiler is a program to convert a programming language into __machine code__ which a computer can understand. The process of writing code is a programming language is known as _coding_ and converting it to machine code is known as _compilation_ : "compile" is the verb for compilation. 
 
@@ -22,24 +22,28 @@ To begin programming in D your need to have the following two (2) softwares:
 After downloading these two softwares, install all onto your computer. After completing this process, your are ready to begin programming! From this point onwards, we will be using the __command-line__ (also know as Command Prompt or Terminal) to run DMD (the D compiler) to compile the code we will write to machine language. Instructions on how to launch the command-line for various Operating Systems is illustrated as follows:
 
 #### Windows
-If you are on Windows, open Start Menu and search for "D2 32-bit Command Prompt". Open it to launch a command prompt on your desktop as shown in the screenshot below:
+If you are on Windows, open Start Menu and search for __D2 32-bit Command Prompt__. Open it to launch a command prompt on your desktop as shown in the screenshot below:
 
 ![D2 32-bit Command Prompt in Windows](images/commad-prompt.jpg)
 D2 32-bit Command Prompt in Windows
 
-The code we will write should be stored at `C:\D\` folder.
+Create a new folder named `code-demo` in your `C:\` drive. All the code we will write should be stored in this folder (`C:\code-demo`). Navigate to this folder in the you launched Command Prompt by entering `cd C:\code-demo`. Remember to _always_ make sure you navigate to `C:\code-demo` whenever you first launch __D2 32-bit Command Prompt__.
 
 #### Linux and macOS
-The command-line program for most Linux and macOS Operating Systems is called Terminal. Search for "Terminal" from the application installed and launch.
+The command-line program for most Linux and macOS Operating Systems is called __Terminal__. Search for "Terminal" from the application installed and launch.
 
 ![Terminal in Linux](images/linux-terminal.png)
 Terminal in Ubuntu Linux
 
-The code we will write should be stored in a newly created folder `code-demo` in your Home folder. Navigate to this folder by entering the command `cd ~/code-demo` in your command-line.
+The code we will write should be stored in a newly created folder `code-demo` in your Home folder. Navigate to this folder by entering the command `cd ~/code-demo` in your command-line. Remember to _always_ make sure you navigate to `code-demo` whenever you first launch __Terminal__.
 
+> #### Instaling the D compiler other Operating Systems
+> The are so many Operating Systems which do not have their installer on the D language website. Some of them require building the compiler from its source  code on your own. Approach for some of them are as follows:
+> * Slackware: Slackware uses Slackbuild script to create packages. You can obtain the slackbuild script for the D compiler at https://slackbuilds.org/repository/14.2/development/dmd/
+> * 
 
 ## Writng your first code
-Open Sublime text editor and create a new file by clicking on `File > New File `. Save the file by clicking on `File > Save`. This will bring up a file dialog for you to select a location where your want to save the file. On Windows, save the file to `C:\D\` folder. For Linux and macOS users, save it in the `code-demo` folder in Home. Make sure you save the file as `try.d`. 
+Open Sublime text editor and create a new file by clicking on `File > New File `. Save the file by clicking on `File > Save`. This will bring up a file dialog for you to select a location where your want to save the file. On Windows, create a new folder at `C:\code-demo` save the file in it. For Linux and macOS users, save it in the `code-demo` folder in Home. Make sure you save the file as `hello.d`. 
 
 > #### File naming conventions
 > Any file containing D code must have a name that ends with ".d". The ".d" is the file extension of the file. File names should not have a space within the name and all letters must be in lower-case (small letters). 
@@ -76,7 +80,7 @@ dmd try.d
 This will generate a program called `try.exe` on Windows or just `try` on Linux and macOS. On Windows, enter with the command:
 
 ```sh
-./try.exe
+try.exe
 ```
 
 or on Linux and macOS, enter:
@@ -97,3 +101,6 @@ If you typed the code correctly, saved it into the new file and typed the comman
 Demo code in Terminal
 
 Congratulations! You have written your first program in D.
+
+> ### Getting all source code for examples in this book
+> You can access all the code used in this book at https://github.com/aberba/learn-coding within the `examples` folder. 
