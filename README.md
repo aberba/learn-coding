@@ -1,8 +1,16 @@
 # Learn Coding: using D
 > A mini book for learning computer programming completely from scratch using D programming language.
 
-## Preface
+
+# Preface
 This book is written to guide you to learn computer programming. I have put in effort to make it easy to understand for beginners. You will be taken through the basics and move to more advanced topics as you go further. You are encourage to follows along right from the start to understand more advanced topics in this book.
+
+# Chapter 1: Introduction
+In this chapter, you will be introduced to the concept of computer programming, how it works and you will finally write your first code. The various sections of this chapter are outlined below:
+
+* Introduction to computer programming
+* Setting up your development environment
+* Writing your first code
 
 ## Introduction to computer programming
 A computer is an electronic device, which takes instructions & carries them out. A computer program contains the instructions which tell the computer what to do. By writing the right program, you can tell a computer to do anything, _as long as it is capable_. A computer only understand __0s__ and __1s__. It uses a combination of 0s and 1s to represent a specific instruction. These combinations of 0s and 1s are difficult to write or understand.
@@ -42,7 +50,7 @@ The code we will write should be stored in a newly created folder `code-demo` in
 > * Slackware: Slackware uses Slackbuild script to create packages. You can obtain the slackbuild script for the D compiler at https://slackbuilds.org/repository/14.2/development/dmd/
 > * 
 
-## Writng your first code
+## Writing your first code
 Open Sublime text editor and create a new file by clicking on `File > New File `. Save the file by clicking on `File > Save`. This will bring up a file dialog for you to select a location where your want to save the file. On Windows, create a new folder at `C:\code-demo` save the file in it. For Linux and macOS users, save it in the `code-demo` folder in Home. Make sure you save the file as `hello.d`. 
 
 > #### File naming conventions
@@ -105,3 +113,6 @@ Congratulations! You have written your first program in D.
 > ### Getting all source code for examples in this book
 > You can access all the code used in this book at https://github.com/aberba/learn-coding within the `examples` folder. The examples source code is organised placed into various folders in sequence depending on the __Chapter__ in the book within which it was demonstrated. 
 > For example, the `hello.d` code we just wrote will be placed in the `chapter_01` folder in `examples` and the file will be named as `example_01_hello.d`. The next example in this chapter will be saved in a file with its name prefixed with `example_02_`. The same pattern applies to source code for all examples in this book.
+
+
+# Chapter 2: Learning the basics of D
