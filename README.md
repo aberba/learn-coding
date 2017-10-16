@@ -29,14 +29,6 @@ To begin programming in D you need to have the following two (2) softwares:
 
 After downloading these two softwares, install all onto your computer. After completing this process, you are ready to begin programming! From this point onwards, we will be using the __command-line__ (also know as Command Prompt or Terminal) to run DMD (the D compiler) to compile the code we will write to machine language. Instructions on how to launch the command-line for various Operating Systems is illustrated as follows:
 
-To begin programming in D your need to have the following two (2) softwares:
-
-1. __A Text Editor__: A text editor is a software used from writing code. One example of a text editor is Sublime which you can download at __sublimetext.com__.
-2. __D compiler__: We will use the D compiler to convert the code we will write to machine code. Download the D compiler at __dlang.org/download__. Make sure you select __DMD (the official D compiler)__ and download the version for your Operating System (Windows, Linux, macOS, BSD, etc).
-
-After downloading these two softwares, install all onto your computer. After completing this process, your are ready to begin programming! From this point onwards, we will be using the __command-line__ (also know as Command Prompt or Terminal) to run DMD (the D compiler) to compile the code we will write to machine language. Instructions on how to launch the command-line for various Operating Systems is illustrated as follows:
-
-
 #### Windows
 If you are on Windows, open Start Menu and search for __D2 32-bit Command Prompt__. Open it to launch a command prompt on your desktop as shown in the screenshot below:
 
