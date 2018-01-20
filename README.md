@@ -19,7 +19,7 @@ To solve this problem, `computer programming languages` were invented. Programmi
 
 There are so many different programming languages today. They all server the same purpose: to instruct a computer to perform a certain action. These languages vary in their design. Some are general purpose languages whilst other are designed for special purposes. Each programming language has its own special compiler for converting it into machine code.
 
-[D](https://dlang.org) is one example of a general purpose programming language. It was designed to be used for doing so many things (web applications, games, desktop applications, operating systems, robortics, real-time communication systems, etc). Learning D is fairly straight forward even for beginners. In this book, you will learn how to begin computer programming using the D programming language.
+[D](https://dlang.org) is one example of a general purpose programming language. It was designed to be used for doing so many things (web applications, games, desktop applications, operating systems, robotics, real-time communication systems, etc). Learning D is fairly straight forward even for beginners. In this book, you will learn how to begin computer programming using the D programming language.
 
 ## Setting up your development environment
 To begin programming in D you need to have the following two (2) softwares:
@@ -47,14 +47,14 @@ The code we will write should be stored in a newly created folder `code-demo` in
 
 > #### Installing the D compiler other Operating Systems
 > There are so many Operating Systems which do not have their installer on the [D language website](https://dlang.org/download). Some of them require building the compiler from its source  code on your own. Approach for some of them are as follows:
-> * Slackware: Slackware uses Slackbuild script to create packages. You can obtain the slackbuild script for the D compiler at https://slackbuilds.org/repository/14.2/development/dmd/
+> * **Slackware**: Slackware uses Slackbuild script to create packages. You can obtain the slackbuild script for the D compiler at https://slackbuilds.org/repository/14.2/development/dmd/
 > * 
 
 ## Writing your first code
 Open Sublime text editor and create a new file by clicking on `File > New File `. Save the file by clicking on `File > Save`. This will bring up a file dialog for you to select a location where your want to save the file. On Windows, save it at `C:\code-demo` folder. For Linux and macOS users, save it in the `code-demo` folder in Home. Make sure you save the file as `hello.d`. 
 
 > #### File naming conventions
-> Any file containing D code _must_ have a name that ends with `".d"`. The `".d"` is the extension (format) of the file. File names _must only_ contain numbers, letters, or underscore (`"_"`) and _should not have_ a space within its. All letters must be in lower-case (small letters). 
+> Any file containing D code _must_ have a name that ends with `".d"`. The `".d"` is the extension (format) of the file. File names _must only_ contain numbers, letters, or underscore (`"_"`) and names _should not_ contain a space. All letters must be in lower-case (small letters). 
 
 > Some invalid style of naming D files include `"d program.d"`, `"d program .d"` and "`dprogram"`.
 > 
