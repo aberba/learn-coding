@@ -28,8 +28,8 @@ There are so many different programming languages today. They all server the sam
 
 To begin programming in D you need to have the following two (2) softwares:
 
-1. **A Text Editor**: A text editor is a software used for writing code. One example of a text editor is Sublime which you can download at **sublimetext.com**.
-2. **D compiler**: We will use the D compiler to convert the code we will write to machine code. Download the D compiler at **dlang.org/download**. Make sure you select **DMD (the official D compiler)** and download the version for your Operating System (Windows, Linux, macOS, BSD, etc).
+1. **A Text Editor**: A text editor is a software used for writing code. One example of a text editor is Sublime which you can download at **[sublimetext.com](https://www.sublimetext.com/)**.
+2. **D compiler**: We will use the D compiler to convert the code we will write to machine code. Download the D compiler at **[dlang.org/download](https://dlang.org/download)**. Make sure you select **DMD (the official D compiler)** and download the version for your Operating System (Windows, Linux, macOS, BSD, etc).
 
 After downloading these two softwares, install all onto your computer. After completing this process, you are ready to begin programming! From this point onwards, we will be using the **command-line** (also know as Command Prompt or Terminal) to run DMD (the D compiler) to compile the code we will write to machine language. Instructions on how to launch the command-line for various Operating Systems is illustrated as follows:
 
